@@ -24,10 +24,3 @@ function reduce(array, callback, startingValue) {
     }
     return answer
 }
-
-// describe("reduce returns a running total when given a starting point", function () {
-//     it("reduces correctly", function () {
-//         sourceArray = [1, 2, 3]
-//         startingPoint = 100
-//         expect(reduce(sourceArray, function (e, memo) { return e + memo }, startingPoint)).to.equal(106)
-//     })
